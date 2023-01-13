@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Compete-Coding/static/css/main.073c9b0a.css",
-    "main.js": "/Compete-Coding/static/js/main.8552c7ae.js",
+    "main.js": "/Compete-Coding/static/js/main.4fd96f03.js",
     "static/js/787.ec5c722b.chunk.js": "/Compete-Coding/static/js/787.ec5c722b.chunk.js",
     "static/media/LoadingSpinner.gif": "/Compete-Coding/static/media/LoadingSpinner.e9202c75d969bfbffe5a.gif",
     "index.html": "/Compete-Coding/index.html",
     "main.073c9b0a.css.map": "/Compete-Coding/static/css/main.073c9b0a.css.map",
-    "main.8552c7ae.js.map": "/Compete-Coding/static/js/main.8552c7ae.js.map",
+    "main.4fd96f03.js.map": "/Compete-Coding/static/js/main.4fd96f03.js.map",
     "787.ec5c722b.chunk.js.map": "/Compete-Coding/static/js/787.ec5c722b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.8552c7ae.js"
+    "static/js/main.4fd96f03.js"
   ]
 }
