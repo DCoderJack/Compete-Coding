@@ -67,7 +67,7 @@ const ContestCard = (props) => {
                 <div className="card-header bg-dark">
                     <ul className="nav nav-tabs card-header-tabs">
                     <li className="nav-item">
-                        <a className= {`nav-link active bg-${siteColor} text-light fs-5`} href = {url}target="_blank" rel="noreferrer" style={{textDecoration : 'underline'}}>{siteName}</a>
+                        <a className= {`nav-link active bg-${siteColor} text-light fs-5`} href = {url}target="_blank" rel="noreferrer">{siteName}</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#"><strong className='text-center'>In 24 Hrs-</strong>{in_24_hours}</a>
@@ -81,7 +81,7 @@ const ContestCard = (props) => {
                     </ul>
                 </div>
                 <div className="card-body " style={{backgroundColor : '#e2d1d1'}}>
-                    <h5 className="card-title">{name}</h5>
+                    <a className="nav-link" href={url} target = "_blank" rel='noreferrer' style={{textDecoration : 'underline', color : 'blue'}} ><h5 className="card-title">{name}</h5></a>
                     <p className="card-text text-danger"><strong>{contestDuration}</strong> Hours</p>
                     <a href="#" className= {`btn btn-${statusColor}`}>{status}</a>
                 </div>
